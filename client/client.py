@@ -1,7 +1,7 @@
 import sys, socket, os, struct
 
 FORMAT = 'utf-8'
-BYTES = 16
+BYTES = 8
 image_set = {".jpg", ".jpeg", ".png"}
 
 def image_check(name):
