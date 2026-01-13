@@ -64,7 +64,6 @@ python3 client.py localhost 5000 GET photo.jpg
 - Custom application-layer protocol
 - Basic error handling and validation
 
----
 
 ## Design Highlights
 
@@ -74,7 +73,6 @@ python3 client.py localhost 5000 GET photo.jpg
 - Clear separation between client and server responsibilities
 - Designed for local testing (`localhost` / `127.0.0.1`)
 
----
 
 ## Limitations
 
@@ -83,7 +81,6 @@ python3 client.py localhost 5000 GET photo.jpg
 - Single-threaded server
 - Localhost usage only
 
----
 
 ## Future Improvements
 
@@ -94,7 +91,6 @@ python3 client.py localhost 5000 GET photo.jpg
 - Expand supported file types
 - Add logging and configuration options
 
----
 
 ## Author
 
