@@ -56,50 +56,48 @@ python3 client.py localhost 5000 PUT photo.jpg
 python3 client.py localhost 5000 GET photo.jpg
 ```
 
-### Project Structure
-.
-├── client.py      # Client-side command handling and file transfer
-├── server.py      # Server-side request processing and storage
-└── README.md
+## Technologies Used
 
-Technologies Used
-	•	Python 3
-	•	TCP sockets (socket)
-	•	Binary file I/O
-	•	Custom application-layer protocol
-	•	Basic error handling and validation
+- Python 3
+- TCP sockets (`socket`)
+- Binary file I/O
+- Custom application-layer protocol
+- Basic error handling and validation
 
-⸻
+---
 
-Design Highlights
-	•	Uses fixed-size headers for safe message framing
-	•	Prevents overwriting existing files
-	•	Ensures file integrity during transfer
-	•	Clear separation between client and server responsibilities
-	•	Designed for local testing (localhost / 127.0.0.1)
+## Design Highlights
 
-⸻
+- Uses fixed-size headers for safe message framing
+- Prevents overwriting existing files
+- Ensures file integrity during transfer
+- Clear separation between client and server responsibilities
+- Designed for local testing (`localhost` / `127.0.0.1`)
 
-Limitations
-	•	No encryption (data sent in plain TCP)
-	•	No authentication or access control
-	•	Single-threaded server
-	•	Localhost usage only
+---
 
-⸻
+## Limitations
 
-Future Improvements
-	•	Add encryption (TLS / SSL)
-	•	Implement user authentication
-	•	Support concurrent clients (threading or async)
-	•	Add checksum validation
-	•	Expand supported file types
-	•	Add logging and configuration options
+- No encryption (data sent in plain TCP)
+- No authentication or access control
+- Single-threaded server
+- Localhost usage only
 
-⸻
+---
 
-Author
+## Future Improvements
 
-Kong Yu Min
-University of Glasgow
+- Add encryption (TLS / SSL)
+- Implement user authentication
+- Support concurrent clients (threading or async)
+- Add checksum validation
+- Expand supported file types
+- Add logging and configuration options
+
+---
+
+## Author
+
+**Kong Yu Min**  
+University of Glasgow  
 Computer Science
