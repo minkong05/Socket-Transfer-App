@@ -92,8 +92,9 @@ python3 client.py localhost 5000 GET photo.jpg
 - Add logging and configuration options
 
 
+
 ## Author
 
-**Kong Yu Min**  
+Built by **Kong Yu Min**  
 University of Glasgow  
-Computer Science
+Python / Backend / Security-focused Learning Platform
