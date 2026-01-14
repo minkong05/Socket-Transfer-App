@@ -95,12 +95,11 @@ This restriction is enforced on **both client and server** sides.
 ## Project Structure
 ```bash
 Socket-Transfer-App/
-│
-├── server.py          # TCP server implementation
+├── server.py          # TCP server (LIST / GET / PUT handling)
 ├── client.py          # TCP client CLI
-├── client/            # Client-side files
-├── server_files/      # Server-side storage
-├── example.png        # Example file transfer
+├── client/            # Client-side download/upload directory
+├── server_files/      # Server-side file storage
+├── example.png        # Example transferred file
 ├── .gitignore
 └── README.md
 ```
