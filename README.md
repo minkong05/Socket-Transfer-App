@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 # Python Socket File Transfer System
 
 A Python TCP client–server file transfer application implementing a custom application-layer protocol with handshake validation and fixed-length headers.
