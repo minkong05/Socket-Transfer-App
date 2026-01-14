@@ -93,6 +93,7 @@ This restriction is enforced on **both client and server** sides.
 
 
 ## Project Structure
+```bash
 Socket-Transfer-App/
 │
 ├── server.py          # TCP server implementation
@@ -102,6 +103,7 @@ Socket-Transfer-App/
 ├── example.png        # Example file transfer
 ├── .gitignore
 └── README.md
+```
 
 
 ## Design Highlights
