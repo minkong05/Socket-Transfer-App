@@ -61,7 +61,7 @@ cd Socket-Transfer-App
 ```
 
 
-## How to Run
+## Running the App
 
 ### Start the Server
 ```bash
