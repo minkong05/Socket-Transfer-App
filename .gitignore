@@ -259,5 +259,7 @@ downloaded_*
 
 # VS Code temp files
 tempCodeRunnerFile.py
+__pycache__/
+.pytest_cache/
 
 
