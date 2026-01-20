@@ -154,9 +154,6 @@ def main():
     else:
         print(usage)
         return
-    
-this is not python
-
 
 if __name__ == "__main__":
     main()
