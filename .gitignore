@@ -257,10 +257,7 @@ ENV/
 received_*
 downloaded_*
 
-# ===============================
-# Optional: ignore images if you don’t want test data tracked
-# (comment these out if images ARE part of the project)
-# ===============================
-# *.jpg
-# *.jpeg
-# *.png
+# VS Code temp files
+tempCodeRunnerFile.py
+
+
