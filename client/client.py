@@ -15,7 +15,7 @@ def recv_mes(socket):
         data = b''
         while len(data) < amount_of_length:
             chunk = socket.recv(amount_of_length - len(data))
-            if not chunk:  # peer closed early
+            if not chunk:                           # peer closed early
                 raise ConnectionError("Peer closed before all bytes were received")
             data += chunk
         return data
